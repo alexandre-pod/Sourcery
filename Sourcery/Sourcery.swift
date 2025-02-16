@@ -426,10 +426,14 @@ extension Sourcery {
         }
 
         let parserResult = FileParserResult(path: nil, module: nil, types: allTypes, functions: allFunctions, typealiases: allTypealiases)
+        dump(parserResult)
 
         var parserResultCopy: FileParserResult?
         if requiresFileParserCopy {
             let data = try NSKeyedArchiver.archivedData(withRootObject: parserResult, requiringSecureCoding: false)
+            print("archived data")
+            dump(data)
+            print("Atempting decode")
             parserResultCopy = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as? FileParserResult
         }
 

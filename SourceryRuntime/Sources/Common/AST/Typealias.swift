@@ -151,8 +151,8 @@ public final class Typealias: NSObject, Typed, SourceryModel, Diffable {
                 }
                 fatalError()
              }; self.documentation = documentation
-            // self.parent = aDecoder.decode(forKey: "parent")
-            self.parent = nil
+            self.parent = aDecoder.decode(forKey: "parent")
+            // self.parent = nil
             guard let accessLevel: String = aDecoder.decode(forKey: "accessLevel") else { 
                 withVaList(["accessLevel"]) { arguments in
                     NSException.raise(NSExceptionName.parseErrorException, format: "Key '%@' not found.", arguments: arguments)
@@ -171,7 +171,7 @@ public final class Typealias: NSObject, Typed, SourceryModel, Diffable {
             aCoder.encode(self.imports, forKey: "imports")
             aCoder.encode(self.annotations, forKey: "annotations")
             aCoder.encode(self.documentation, forKey: "documentation")
-            // aCoder.encode(self.parent, forKey: "parent")
+            aCoder.encode(self.parent, forKey: "parent")
             aCoder.encode(self.accessLevel, forKey: "accessLevel")
             aCoder.encode(self.parentName, forKey: "parentName")
         }

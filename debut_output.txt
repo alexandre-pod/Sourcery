@@ -1,0 +1,344 @@
+No config file provided or it does not exist. Using command line arguments.
+Scanning sources...
+	loadOrParse: 0.0071485042572021484
+▿ FileParserResult: path = nil, module = nil, types = [Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct, isUnknownExtension = false, isGeneric = false, localName = MyStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct.ContextStruct, isUnknownExtension = false, isGeneric = false, localName = ContextStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [], parentName = Optional("MyStruct"), parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct], parentName = nil, parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct, Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct.ContextStruct, isUnknownExtension = false, isGeneric = false, localName = ContextStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [], parentName = Optional("MyStruct"), parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct], functions = [], typealiases = [], inlineRanges = [:], inlineIndentations = [:], modifiedDate = 2025-02-16 14:22:32 +0000, sourceryVersion = , isEmpty = false #0
+  - super: Foundation.NSObject
+  - path: nil
+  - module: nil
+  ▿ types: 2 elements
+    - Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct, isUnknownExtension = false, isGeneric = false, localName = MyStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct.ContextStruct, isUnknownExtension = false, isGeneric = false, localName = ContextStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [], parentName = Optional("MyStruct"), parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct], parentName = nil, parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct #1
+      ▿ super: SourceryRuntime.Type
+        - super: Foundation.NSObject
+        - module: nil
+        - imports: 0 elements
+        - typealiases: 0 key/value pairs
+        - isExtension: false
+        - _kind: "struct"
+        - accessLevel: "internal"
+        - isUnknownExtension: false
+        - isGeneric: false
+        - localName: "MyStruct"
+        - rawVariables: 0 elements
+        - rawMethods: 0 elements
+        - rawSubscripts: 0 elements
+        ▿ bodyBytesRange: Optional(BytesRange: offset = 17, length = 29)
+          ▿ some: BytesRange: offset = 17, length = 29 #2
+            - super: Foundation.NSObject
+            - offset: 17
+            - length: 29
+        ▿ completeDeclarationRange: Optional(BytesRange: offset = 0, length = 47)
+          ▿ some: BytesRange: offset = 0, length = 47 #3
+            - super: Foundation.NSObject
+            - offset: 0
+            - length: 47
+        - annotations: 0 key/value pairs
+        - documentation: 0 elements
+        - inheritedTypes: 0 elements
+        - based: 0 key/value pairs
+        - basedTypes: 0 key/value pairs
+        - inherits: 0 key/value pairs
+        - implements: 0 key/value pairs
+        ▿ containedTypes: 1 element
+          - Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct.ContextStruct, isUnknownExtension = false, isGeneric = false, localName = ContextStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [], parentName = Optional("MyStruct"), parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct #4
+            ▿ super: SourceryRuntime.Type
+              - super: Foundation.NSObject
+              - module: nil
+              - imports: 0 elements
+              - typealiases: 0 key/value pairs
+              - isExtension: false
+              - _kind: "struct"
+              - accessLevel: "internal"
+              - isUnknownExtension: false
+              - isGeneric: false
+              - localName: "ContextStruct"
+              - rawVariables: 0 elements
+              - rawMethods: 0 elements
+              - rawSubscripts: 0 elements
+              ▿ bodyBytesRange: Optional(BytesRange: offset = 44, length = 0)
+                ▿ some: BytesRange: offset = 44, length = 0 #5
+                  - super: Foundation.NSObject
+                  - offset: 44
+                  - length: 0
+              ▿ completeDeclarationRange: Optional(BytesRange: offset = 22, length = 23)
+                ▿ some: BytesRange: offset = 22, length = 23 #6
+                  - super: Foundation.NSObject
+                  - offset: 22
+                  - length: 23
+              - annotations: 0 key/value pairs
+              - documentation: 0 elements
+              - inheritedTypes: 0 elements
+              - based: 0 key/value pairs
+              - basedTypes: 0 key/value pairs
+              - inherits: 0 key/value pairs
+              - implements: 0 key/value pairs
+              - containedTypes: 0 elements
+              - containedType: 0 key/value pairs
+              ▿ parentName: Optional("MyStruct")
+                - some: "MyStruct"
+              ▿ parent: Optional(Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct, isUnknownExtension = false, isGeneric = false, localName = MyStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct.ContextStruct, isUnknownExtension = false, isGeneric = false, localName = ContextStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [], parentName = Optional("MyStruct"), parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct], parentName = nil, parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct)
+                - some: Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct, isUnknownExtension = false, isGeneric = false, localName = MyStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct.ContextStruct, isUnknownExtension = false, isGeneric = false, localName = ContextStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [], parentName = Optional("MyStruct"), parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct], parentName = nil, parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct #1
+              - supertype: nil
+              - attributes: 0 key/value pairs
+              - modifiers: 0 elements
+              ▿ path: Optional("Templates/Tests/Context_Linux/Simple.swift")
+                - some: "Templates/Tests/Context_Linux/Simple.swift"
+              - genericRequirements: 0 elements
+              ▿ fileName: Optional("Simple.swift")
+                - some: "Simple.swift"
+        ▿ containedType: 1 key/value pair
+          ▿ (2 elements)
+            - key: "ContextStruct"
+            - value: Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct.ContextStruct, isUnknownExtension = false, isGeneric = false, localName = ContextStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [], parentName = Optional("MyStruct"), parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct #4
+        - parentName: nil
+        - parent: nil
+        - supertype: nil
+        - attributes: 0 key/value pairs
+        - modifiers: 0 elements
+        ▿ path: Optional("Templates/Tests/Context_Linux/Simple.swift")
+          - some: "Templates/Tests/Context_Linux/Simple.swift"
+        - genericRequirements: 0 elements
+        ▿ fileName: Optional("Simple.swift")
+          - some: "Simple.swift"
+    - Struct: module = nil, imports = [], allImports = [], typealiases = [:], isExtension = false, kind = struct, _kind = struct, accessLevel = internal, name = MyStruct.ContextStruct, isUnknownExtension = false, isGeneric = false, localName = ContextStruct, rawVariables = [], rawMethods = [], rawSubscripts = [], initializers = [], annotations = [:], documentation = [], staticVariables = [], staticMethods = [], classMethods = [], instanceVariables = [], instanceMethods = [], computedVariables = [], storedVariables = [], inheritedTypes = [], inherits = [:], containedTypes = [], parentName = Optional("MyStruct"), parentTypes = AnyIterator<Type>(_box: Swift._IteratorBox<Swift._ClosureBasedIterator<SourceryRuntime.Type>>), attributes = [:], modifiers = [], fileName = Optional("Simple.swift"), genericRequirements = [], kind = struct #4
+  - functions: 0 elements
+  - typealiases: 0 elements
+  - inlineRanges: 0 key/value pairs
+  - inlineIndentations: 0 key/value pairs
+  ▿ modifiedDate: 2025-02-16 14:22:32 +0000
+    - timeIntervalSinceReferenceDate: 761408552.9925694
+  - sourceryVersion: ""
+archived data
+▿ 3001 bytes
+  - count: 3001
+  ▿ pointer: 0x00005e93132b0680
+    - pointerValue: 103985774790272
+Atempting decode
+=============================================== aDecoder.decode(forKey: "types")
+Struct.init?(coder) <NSKeyedUnarchiver: 0x00005e931327e000>
+=== Stack
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation6ThreadC16callStackSymbolsSaySSGvgZ+0x25) [0x741df7565375]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bb98) [0x5e930d9ebb98]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x2b22d5) [0x741df74b22d5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC27_decodeArrayOfObjectsForKeyySayypGSSF+0x22) [0x741df74b6652]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation7NSArrayC5coderACSgAA7NSCoderC_tcfC+0x73) [0x741df7457c73]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x25522b) [0x741df745522b]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x1049802) [0x5e930d999802]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10493e4) [0x5e930d9993e4]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ceb1) [0x5e930d96ceb1]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC31unarchiveTopLevelObjectWithDatayypSg0A10Essentials0I0VKFZ+0x73) [0x741df74b8563]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfe9121) [0x5e930d939121]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfd656c) [0x5e930d92656c]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfe78ef) [0x5e930d9378ef]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4eae2) [0x5e930d89eae2]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4ecd5) [0x5e930d89ecd5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libswiftCore.so($sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lF+0x20a) [0x741df7f8b2ba]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4c050) [0x5e930d89c050]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x5e45ee) [0x5e930cf345ee]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x5e79c0) [0x5e930cf379c0]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x56357e) [0x5e930ceb357e]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x562b77) [0x5e930ceb2b77]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x563deb) [0x5e930ceb3deb]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf507dd) [0x5e930d8a07dd]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4f319) [0x5e930d89f319]
+  - /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca) [0x741df602a1ca]
+  - /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b) [0x741df602a28b]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x24ad15) [0x5e930cb9ad15]
+===
+Type.init?(coder) <NSKeyedUnarchiver: 0x00005e931327e000>
+- basedTypes <NSKeyedUnarchiver: 0x00005e931327e000>
+- containedTypes <NSKeyedUnarchiver: 0x00005e931327e000>
+Struct.init?(coder) <NSKeyedUnarchiver: 0x00005e931327e000>
+=== Stack
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation6ThreadC16callStackSymbolsSaySSGvgZ+0x25) [0x741df7565375]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bb98) [0x5e930d9ebb98]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x2b22d5) [0x741df74b22d5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC27_decodeArrayOfObjectsForKeyySayypGSSF+0x22) [0x741df74b6652]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation7NSArrayC5coderACSgAA7NSCoderC_tcfC+0x73) [0x741df7457c73]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x25522b) [0x741df745522b]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10d81bd) [0x5e930da281bd]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bdd3) [0x5e930d9ebdd3]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x2b22d5) [0x741df74b22d5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC27_decodeArrayOfObjectsForKeyySayypGSSF+0x22) [0x741df74b6652]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation7NSArrayC5coderACSgAA7NSCoderC_tcfC+0x73) [0x741df7457c73]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x25522b) [0x741df745522b]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x1049802) [0x5e930d999802]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10493e4) [0x5e930d9993e4]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ceb1) [0x5e930d96ceb1]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC31unarchiveTopLevelObjectWithDatayypSg0A10Essentials0I0VKFZ+0x73) [0x741df74b8563]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfe9121) [0x5e930d939121]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfd656c) [0x5e930d92656c]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfe78ef) [0x5e930d9378ef]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4eae2) [0x5e930d89eae2]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4ecd5) [0x5e930d89ecd5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libswiftCore.so($sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lF+0x20a) [0x741df7f8b2ba]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4c050) [0x5e930d89c050]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x5e45ee) [0x5e930cf345ee]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x5e79c0) [0x5e930cf379c0]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x56357e) [0x5e930ceb357e]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x562b77) [0x5e930ceb2b77]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x563deb) [0x5e930ceb3deb]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf507dd) [0x5e930d8a07dd]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4f319) [0x5e930d89f319]
+  - /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca) [0x741df602a1ca]
+  - /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b) [0x741df602a28b]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x24ad15) [0x5e930cb9ad15]
+===
+Type.init?(coder) <NSKeyedUnarchiver: 0x00005e931327e000>
+- basedTypes <NSKeyedUnarchiver: 0x00005e931327e000>
+- containedTypes <NSKeyedUnarchiver: 0x00005e931327e000>
+- [END] containedTypes <NSKeyedUnarchiver: 0x00005e931327e000>
+- containedType <NSKeyedUnarchiver: 0x00005e931327e000>
+- [END] containedType <NSKeyedUnarchiver: 0x00005e931327e000>
+- parent <NSKeyedUnarchiver: 0x00005e931327e000>
+Struct.init?(coder) <NSKeyedUnarchiver: 0x00005e931327e000>
+=== Stack
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation6ThreadC16callStackSymbolsSaySSGvgZ+0x25) [0x741df7565375]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bb98) [0x5e930d9ebb98]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10d89e4) [0x5e930da289e4]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bdd3) [0x5e930d9ebdd3]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x2b22d5) [0x741df74b22d5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC27_decodeArrayOfObjectsForKeyySayypGSSF+0x22) [0x741df74b6652]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation7NSArrayC5coderACSgAA7NSCoderC_tcfC+0x73) [0x741df7457c73]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x25522b) [0x741df745522b]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10d81bd) [0x5e930da281bd]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bdd3) [0x5e930d9ebdd3]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x2b22d5) [0x741df74b22d5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC27_decodeArrayOfObjectsForKeyySayypGSSF+0x22) [0x741df74b6652]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation7NSArrayC5coderACSgAA7NSCoderC_tcfC+0x73) [0x741df7457c73]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x25522b) [0x741df745522b]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x1049802) [0x5e930d999802]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10493e4) [0x5e930d9993e4]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ceb1) [0x5e930d96ceb1]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC31unarchiveTopLevelObjectWithDatayypSg0A10Essentials0I0VKFZ+0x73) [0x741df74b8563]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfe9121) [0x5e930d939121]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfd656c) [0x5e930d92656c]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xfe78ef) [0x5e930d9378ef]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4eae2) [0x5e930d89eae2]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4ecd5) [0x5e930d89ecd5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libswiftCore.so($sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lF+0x20a) [0x741df7f8b2ba]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4c050) [0x5e930d89c050]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x5e45ee) [0x5e930cf345ee]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x5e79c0) [0x5e930cf379c0]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x56357e) [0x5e930ceb357e]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x562b77) [0x5e930ceb2b77]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x563deb) [0x5e930ceb3deb]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf507dd) [0x5e930d8a07dd]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0xf4f319) [0x5e930d89f319]
+  - /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca) [0x741df602a1ca]
+  - /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b) [0x741df602a28b]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x24ad15) [0x5e930cb9ad15]
+===
+Type.init?(coder) <NSKeyedUnarchiver: 0x00005e931327e000>
+- basedTypes <NSKeyedUnarchiver: 0x00005e931327e000>
+- containedTypes <NSKeyedUnarchiver: 0x00005e931327e000>
+Struct.init?(coder) <NSKeyedUnarchiver: 0x00005e931327e000>
+=== Stack
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation6ThreadC16callStackSymbolsSaySSGvgZ+0x25) [0x741df7565375]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bb98) [0x5e930d9ebb98]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x2b22d5) [0x741df74b22d5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC27_decodeArrayOfObjectsForKeyySayypGSSF+0x22) [0x741df74b6652]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation7NSArrayC5coderACSgAA7NSCoderC_tcfC+0x73) [0x741df7457c73]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x25522b) [0x741df745522b]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10d81bd) [0x5e930da281bd]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bdd3) [0x5e930d9ebdd3]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10d89e4) [0x5e930da289e4]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bdd3) [0x5e930d9ebdd3]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x2b22d5) [0x741df74b22d5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC27_decodeArrayOfObjectsForKeyySayypGSSF+0x22) [0x741df74b6652]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation7NSArrayC5coderACSgAA7NSCoderC_tcfC+0x73) [0x741df7457c73]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x25522b) [0x741df745522b]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x10d81bd) [0x5e930da281bd]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109bdd3) [0x5e930d9ebdd3]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x109b984) [0x5e930d9eb984]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d2c5) [0x5e930d96d2c5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x2b22d5) [0x741df74b22d5]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC27_decodeArrayOfObjectsForKeyySayypGSSF+0x22) [0x741df74b6652]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation7NSArrayC5coderACSgAA7NSCoderC_tcfC+0x73) [0x741df7457c73]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so(+0x25522b) [0x741df745522b]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLLyypSgypKF+0xbca) [0x741df74b5fca]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC13_decodeObject33_8A4A1351250253AE495C4D706D70227BLL6forKeyypSgSSSg_tKF+0x177) [0x741df74b65f7]
+  - /home/alexandre/bin/swift-6.0.3-RELEASE-ubuntu24.04/usr/lib/swift/linux/libFoundation.so($s10Foundation17NSKeyedUnarchiverC12decodeObject6forKeyypSgSS_tF+0x12) [0x741df74b6b62]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101ca0a) [0x5e930d96ca0a]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x101d5bc) [0x5e930d96d5bc]
+  - .build/x86_64-unknown-linux-gnu/debug/sourcery(+0x1049802) [0x5e930d999802]
+  - .build/x86_64-unknown-linux-gn

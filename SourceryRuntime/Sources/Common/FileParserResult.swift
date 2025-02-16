@@ -126,6 +126,8 @@ public final class FileParserResult: NSObject, SourceryModel, Diffable {
         required public init?(coder aDecoder: NSCoder) {
             self.path = aDecoder.decode(forKey: "path")
             self.module = aDecoder.decode(forKey: "module")
+            // here !
+            print("=============================================== aDecoder.decode(forKey: \"types\")")
             guard let types: [Type] = aDecoder.decode(forKey: "types") else { 
                 withVaList(["types"]) { arguments in
                     NSException.raise(NSExceptionName.parseErrorException, format: "Key '%@' not found.", arguments: arguments)

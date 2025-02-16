@@ -99,7 +99,24 @@ public final class Struct: Type {
 
         /// :nodoc:
         required public init?(coder aDecoder: NSCoder) {
+            print("Struct.init?(coder)", aDecoder)
+            // raise(SIGINT)
+            print("=== Stack")
+            Thread.callStackSymbols.forEach {
+                print("  -", $0)
+            }
+            print("===")
+            // print(Thread.callStackSymbols)
+
+            initCounter += 1
+
+            // if Bool.random() == true {
+            if initCounter > 50 {
+                raise(SIGINT)
+                fatalError("stack overflow prevention")
+            }
             super.init(coder: aDecoder)
+            print("end Struct.init?(coder)")
         }
 
         /// :nodoc:
@@ -108,3 +125,5 @@ public final class Struct: Type {
         }
 // sourcery:end
 }
+
+private var initCounter = 0

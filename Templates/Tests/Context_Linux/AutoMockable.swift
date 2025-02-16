@@ -78,6 +78,10 @@ struct CustomError: Error {}
 //     struct Error: Swift.Error {}
 // }
 
+struct MyStruct {
+    struct ContextStruct {}
+}
+
 protocol CurrencyPresenter: AutoMockable {
     func showSourceCurrency(_ currency: String)
 }

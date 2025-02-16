@@ -88,6 +88,7 @@ public final class Types: NSObject, SourceryModel, Diffable, SourceryDynamicMemb
 
         /// :nodoc:
         required public init?(coder aDecoder: NSCoder) {
+            print("=====", aDecoder.debugDescription)
             guard let types: [Type] = aDecoder.decode(forKey: "types") else { 
                 withVaList(["types"]) { arguments in
                     NSException.raise(NSExceptionName.parseErrorException, format: "Key '%@' not found.", arguments: arguments)

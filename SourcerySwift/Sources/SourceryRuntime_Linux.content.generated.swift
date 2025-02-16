@@ -3711,8 +3711,8 @@ public final class Typealias: NSObject, Typed, SourceryModel, Diffable {
                 }
                 fatalError()
              }; self.documentation = documentation
-            // self.parent = aDecoder.decode(forKey: "parent")
-            self.parent = nil
+            self.parent = aDecoder.decode(forKey: "parent")
+            // self.parent = nil
             guard let accessLevel: String = aDecoder.decode(forKey: "accessLevel") else { 
                 withVaList(["accessLevel"]) { arguments in
                     NSException.raise(NSExceptionName.parseErrorException, format: "Key '%@' not found.", arguments: arguments)
@@ -3731,7 +3731,7 @@ public final class Typealias: NSObject, Typed, SourceryModel, Diffable {
             aCoder.encode(self.imports, forKey: "imports")
             aCoder.encode(self.annotations, forKey: "annotations")
             aCoder.encode(self.documentation, forKey: "documentation")
-            // aCoder.encode(self.parent, forKey: "parent")
+            aCoder.encode(self.parent, forKey: "parent")
             aCoder.encode(self.accessLevel, forKey: "accessLevel")
             aCoder.encode(self.parentName, forKey: "parentName")
         }
@@ -7613,7 +7613,6 @@ public class Type: NSObject, SourceryModel, Annotated, Documented, Diffable, Sou
                 fatalError()
              }; self.containedType = containedType
             self.parentName = aDecoder.decode(forKey: "parentName")
-            // self.parent = aDecoder.decode(forKey: "parent")
             self.parent = nil
             self.supertype = aDecoder.decode(forKey: "supertype")
             guard let attributes: AttributeList = aDecoder.decode(forKey: "attributes") else { 
@@ -7672,7 +7671,6 @@ public class Type: NSObject, SourceryModel, Annotated, Documented, Diffable, Sou
             aCoder.encode(self.containedTypes, forKey: "containedTypes")
             aCoder.encode(self.containedType, forKey: "containedType")
             aCoder.encode(self.parentName, forKey: "parentName")
-            // aCoder.encode(self.parent, forKey: "parent")
             aCoder.encode(self.supertype, forKey: "supertype")
             aCoder.encode(self.attributes, forKey: "attributes")
             aCoder.encode(self.modifiers, forKey: "modifiers")
