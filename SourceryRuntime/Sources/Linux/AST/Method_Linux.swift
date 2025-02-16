@@ -32,6 +32,8 @@ public final class Method: NSObject, SourceryModel, Annotated, Documented, Defin
                 return isStatic
             case "returnTypeName":
                 return returnTypeName
+            case "isThrowsTypeGeneric":
+                return isThrowsTypeGeneric
             case "isAsync":
                 return isAsync
             case "attributes":

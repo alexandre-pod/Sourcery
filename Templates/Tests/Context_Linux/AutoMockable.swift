@@ -59,6 +59,24 @@ protocol ThrowableProtocol: AutoMockable {
     func doOrThrowVoid() throws
 }
 
+protocol TypedThrowableProtocol: AutoMockable {
+    init() throws(CustomError)
+    init<E>(init2: Void) throws(E) where E: Error
+    var value: Int { get throws(CustomError) }
+    var valueAnyError: Int { get throws(any Error) }
+    var valueThrowsNever: Int { get throws(Never) }
+    func doOrThrow() throws(CustomError) -> String
+    func doOrThrowVoid() throws(CustomErrorNameSpace.Error)
+    func doOrThrowAnyError() throws(any Error)
+    func doOrThrowNever() throws(Never)
+    func doOrRethrows<E>(_ block: () throws(E) -> Void) throws(E) -> Int where E: Error
+}
+
+struct CustomError: Error {}
+enum CustomErrorNameSpace {
+    struct Error: Swift.Error {}
+}
+
 protocol CurrencyPresenter: AutoMockable {
     func showSourceCurrency(_ currency: String)
 }
