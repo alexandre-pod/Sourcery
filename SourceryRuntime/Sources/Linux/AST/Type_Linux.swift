@@ -715,7 +715,7 @@ public class Type: NSObject, SourceryModel, Annotated, Documented, Diffable, Sou
                 fatalError()
              }; self.containedType = containedType
             self.parentName = aDecoder.decode(forKey: "parentName")
-            self.parent = aDecoder.decode(forKey: "parent")
+            self.parent = nil
             self.supertype = aDecoder.decode(forKey: "supertype")
             guard let attributes: AttributeList = aDecoder.decode(forKey: "attributes") else { 
                 withVaList(["attributes"]) { arguments in
@@ -737,6 +737,15 @@ public class Type: NSObject, SourceryModel, Annotated, Documented, Diffable, Sou
                 fatalError()
              }; self.genericRequirements = genericRequirements
             self.fileName = aDecoder.decode(forKey: "fileName")
+
+            super.init()
+            containedTypes.forEach {
+                self.containedType[$0.localName] = $0
+                $0.parent = self
+            }
+            self.typealiases.values.forEach({
+                $0.parent = self
+            })
         }
 
         /// :nodoc:
@@ -764,7 +773,6 @@ public class Type: NSObject, SourceryModel, Annotated, Documented, Diffable, Sou
             aCoder.encode(self.containedTypes, forKey: "containedTypes")
             aCoder.encode(self.containedType, forKey: "containedType")
             aCoder.encode(self.parentName, forKey: "parentName")
-            aCoder.encode(self.parent, forKey: "parent")
             aCoder.encode(self.supertype, forKey: "supertype")
             aCoder.encode(self.attributes, forKey: "attributes")
             aCoder.encode(self.modifiers, forKey: "modifiers")
