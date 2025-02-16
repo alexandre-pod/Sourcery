@@ -289,6 +289,7 @@ protocol SubscriptProtocol {
     subscript<T>(arg: T) -> String { get async }
     subscript<T: Hashable>(arg: T) -> T? { get set }
     subscript<T>(arg: String) -> T? where T: Cancellable { get throws }
+    subscript<T>(arg2: String) -> T { get throws(CustomError) }
 }
 
 // sourcery: AutoMockable
